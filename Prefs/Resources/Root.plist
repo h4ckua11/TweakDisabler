@@ -1,0 +1,57 @@
+{
+	"items" = (
+		{
+			cell = "PSGroupCell";
+			headerCellClass = "HBPackageNameHeaderCell";
+			packageIdentifier = "com.h4ckua11.tweakdisabler";
+			showVersion = false;
+			icon = "icon.png";
+			height = 100;
+		},
+		{
+			cell = "PSGroupCell";
+			label = "Groups";
+			footerText = "Press Apply if you Added/Removed a Group or if you changed it's Title or Description.\nOther changes will apply instantly.";
+		},
+		{
+			cell = "PSButtonCell";
+			label = "Add Group";
+			action = "addGroup";
+		},
+		{
+			cell = "PSGroupCell";
+			label = "Help";
+		},
+		{
+			cell = "PSButtonCell";
+			label = "Show Instructions";
+			action = "showInstructions";
+		},
+		{
+			cell = "PSGroupCell";
+			label = "Reset To Defaults";
+		},
+		{
+			cell = "PSButtonCell";
+			label = "Reset";
+			action = "resetToDefaults";
+		},
+		{
+			cell = "PSGroupCell";
+			label = "Twitter";
+		},
+		{
+			big = true;
+			cellClass = "HBTwitterCell";
+			height = 56;
+			label = "h4ckua11";
+			user = "h4ckua11";
+		},
+		{
+			cell = "PSGroupCell";
+			footerText = "© h4ckua11 2020 - TweakDisabler 1.0.0";
+			footerAlignment = 1;
+		}
+	);
+	"title" = "TweakDisabler";
+}

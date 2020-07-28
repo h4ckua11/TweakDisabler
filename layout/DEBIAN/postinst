@@ -1,0 +1,6 @@
+#!/bin/bash
+
+chown root:wheel /usr/bin/tweakdisabler
+chmod +s /usr/bin/tweakdisabler
+
+exit 0

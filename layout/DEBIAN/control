@@ -1,0 +1,9 @@
+Package: com.h4ckua11.tweakdisabler
+Name: TweakDisabler
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: An awesome application!
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
+Maintainer: h4ckua11
+Author: h4ckua11
+Section: Tweaks
